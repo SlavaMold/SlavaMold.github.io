@@ -1,0 +1,83 @@
+{
+    "11111":{
+        "name" : "Miere de floarea soarelui",
+        "cost" : "140", 
+        "description" : "Miere de floarea soarelui Posedă gust specific plăcut și aromă slabă. Sub formă lichidă, uriu deschis sau chihlimbar deschis. Se cristalizează rapid; cristalele sunt mari. Conține cea mai mare cantitate de aminoacizi esențiali pentru corpul uman.",
+
+        "image" : "../img/obr/products/podsolnyx.svg"
+    },
+    "11112":{
+        "name" : "Miere de salcâm",
+        "cost" : "150", 
+        "description" : "Are o aromă delicată și un gust foarte plăcut. În forma sa pură este transparent și incolor. Nu se cristalizează mult timp. Este un bun antiseptic. Este indispensabil în tratamentul bolilor oculare, deoarece practic nu conține boabe de polen. ",
+        "image" : "../img/obr/products/akacye.svg"
+    },
+
+    "11113":{
+        "name" : "Miere de rapiță",
+        "cost" : "120", 
+        "description" : "Mierea de rapiță dizolvată în lapte calmează gâtul inflamat. Această miere nu provoacă arsuri la stomac, este rapid absorbită de intestine și redă puterea. Concentrația crescută de glucoză din mierea de rapiță are un efect benefic asupra activității creierului uman. ",
+        "image" : "../img/obr/products/raps.svg"
+    },
+
+    "11114":{
+        "name" : "Miere multiflora",
+        "cost" : "180", 
+        "description" : "Mierea multiflora contine multe zaharuri simple: glucoza si fructoza. Recomandat persoanelor alergice care sunt alergice la polen și persoanelor care suferă de febra fânului. Această miere nu provoacă alergii. ",
+        "image" : "../img/obr/products/multi.svg"
+    },
+
+    "11115":{
+        "name" : "Propolis",
+        "cost" : "90", 
+        "description" : "Propolisul conține compuși benefici cu proprietăți antibacteriene, antiinflamatorii și antioxidante.",
+
+        "image" : "../img/obr/products/prorolis.svg"
+    },
+    "11116":{
+        "name" : "Polen",
+        "cost" : "120", 
+        "description" : "Conține o mulțime de carbohidrați și proteine, acizi grași și lipide, vitamine și minerale, antioxidanți și enzime. Complexul acestor componente utile are un efect benefic asupra corpului uman.",
+        "image" : "../img/obr/products/polen.svg"
+    },
+
+    "11117":{
+        "name" : "Lapte de albine",
+        "cost" : "120", 
+        "description" : "Ajută la reducerea tensiunii nervoase și a oboselii fizice, la îmbunătățirea somnului, a poftei de mâncare, a memoriei, a capacității de muncă, la creșterea rezistenței la infecții, la creșterea vitalității generale și la îmbunătățirea stării de bine. ",
+        "image" : "../img/obr/products/lapte.svg"
+    },
+
+    "11118":{
+        "name" : "Familie de albine",
+        "cost" : "440", 
+        "description" : "Fiecare dintre ele include matca, trântori și albine lucrătoare.",
+        "image" : "../img/obr/products/familie.svg"
+    },
+
+    "11119":{
+        "name" : "Roi de albine",
+        "cost" : "340", 
+        "description" : " O nouă colonie de albine care s-a desprins din colonia anterioară sau mamă. Compoziția fiecărei astfel de colonii poate fi una sau mai multe matci, câteva sute de trântori și zeci de mii de albine care fac toată munca.",
+        "image1" : "../img/obr/products/roi1.jpg",
+        "image2" : "../img/obr/products/roi2.jpg",
+        
+        "video" : "../video/roiul.mp4"
+    },
+
+    "11120":{
+        "name" : "Regine",
+        "cost" : "200", 
+        "description" : "Albine femele de reproducere.",
+        "image1" : "../img/obr/products/regine1.jpg",
+        "image2" : "../img/obr/products/regine2.jpg",
+        
+        "video" : "../video/regine.mp4"
+    }
+
+
+
+
+
+
+}
