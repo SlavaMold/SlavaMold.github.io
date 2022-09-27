@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+
+    <link rel="stylesheet" href="../css/main_page.css">
+    <link rel="stylesheet" href="../css/produsele.css">
+    <link rel="stylesheet" href="../css/backet.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <script defer src="libs/inputmask.min.js"></script>
+    <!-- <script defer src="libs/just-validate.min.js"></script> -->
+    <script defer src="libs/just-validate3.3.3.min.js"></script>
+    <script defer src="js/script.js"></script>
+    /
+
+
+    <noscript>
+        <style>
+            /**
+        * Reinstate scrolling for non-JS clients
+        */
+            .simplebar-content-wrapper {
+                overflow: auto;
+            }
+        </style>
+    </noscript>
+    <title>Face o comanda</title>
+</head>
+
+<body>
+    <div class="preloader" id="page-preloader">
+        <div class="loader">
+            <img src="../img/preload.png" class="load_img" alt="loading...">
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <header class="false_header">
+            <div class="container__false_header _container ">
+                <nav class="false_menu">
+                    <ul class="menu_list">
+                        <li class="false_menu_item first-it">
+                            <img src="../img/obr/adres.svg"> Adresa noastră: Or. Cantemir, satul Pleșeni
+                        </li>
+                        <li class="false_menu_item ">
+                            <img src="../img/obr/time.svg" id="phone"> Programa: 8:00 pînă la 18:00
+                        </li>
+                        <li class="false_menu_item">
+                            <img src="../img/obr/telefon.svg"> +373 78286811
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+        </header>
+
+        <header class="header">
+            <div class="container__header">
+                <a href="index.html" class="_container_logo"> <img id="logo" src="../img/logo1.png"></a>
+
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_item">
+                            <a href="pages/Produsele-ro2.html" class="menu_link">Produsele noastre</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="pages/Despre-noi-ro.html" class="menu_link">Despre noi</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="pages/galerie-ro.html" class="menu_link">Galerie</a>
+                        </li>
+
+
+                        <li class="menu_item"><a href="comanda-ru.html" id="ru" class="translate">RU</a> <a
+                                href="#" id="ro" class="translate">RO</a></li>
+
+                        <li class="menu_item">
+                            <div class="cart">
+                                <a href="pages/cart.html"><img src="../img/obr/card.svg" id="card"></a>
+                                <span class="cart_quantity"></span>
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                </nav>
+                <div class="header_burger">
+                    <span> </span>
+                </div>
+            </div>
+        </header>
+
+        <div class="page">
+            <section class="page__about _about" id="height">
+                <div class="about__container _container height">
+                    
+           <div class="center">
+                    <form action="#" class="form" method="POST" enctype="multipart/form-data">
+                        <label class="header-block__title">Face o comanda</label>
+                        <label class="form__label">
+                          <input class="input input-name" type="text" data-validate-field="name" name="Nume,Prenume" placeholder="Nume, Prenume">
+                        </label>
+                        <label class="form__label">
+                          <input class="input input-mail" type="email" data-validate-field="email" name="Email"
+                            placeholder="E-mail">
+                        </label>
+                        <label class="form__label">
+                          <input class="input input-tel" type="tel" data-validate-field="tel" name="Numărul de telefon"
+                            placeholder="Numărul de telefon">
+                        </label>
+                        <button class="main_block__button_red2">Trimite</button>
+                        <div class="hidden"></div>
+                      </form>
+                      <div class="hidden_block1">
+                        <div class="header-block"><br><br>
+                           <p>Voi n-ați selectat nici un bun<br>
+                           Puteți să select aici<br><br>
+                           <a href="pages/Produsele-ro2.html" class="main_block__button_red2">Merge</a>
+                          </div>
+                      </div>
+</div>
+<div class="plug2"></div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container__footer _container">
+          <div class="left-column">
+            <ul class="footer_list">
+              <li class="footer_item">
+                <h2 class="contacts">Contactele</h2>
+              </li>
+              <li class="footer_item">
+                <img src="img/obr/post.png" class="footer-img">gtmoisa@gmail.com
+              </li>
+              <li class="footer_item">
+                <img src="img/obr/telefon.svg" class="footer-img _small">+373 78286811
+              </li>
+
+            </ul>
+          </div>
+          <div class="right-column">
+            <ul class="footer_list">
+              <li class="footer_item">
+                <h2 class="contacts">Social media</h2>
+
+              </li>
+              <li class="footer_item">
+                <img src="img/obr/viber.png" class="footer-img">+373 78286811
+
+
+
+              <li class="footer_item" id="last-item">
+                <a class="footer-link clickable" href="https://ro-ro.facebook.com/moisa.gheorghe.792"><img
+                    src="img/obr/facebook.png" class="footer-img ">Facebook</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+        <iframe id="map1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11013.539088062651!2d28.332296281699822!3d46.3617535143077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b61d3e89234fdd%3A0xa224d011f9994ee!2sPrimaria%20Comunei%20Ple%C8%99eni!5e0!3m2!1sru!2s!4v1648204962954!5m2!1sru!2s"
+          width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <p id="P1">© М. G. Emilian, 2022</p>
+
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/cart-content.js"></script>
+    
+    <script src="js/cart.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/hidden.js"></script>
+    
+ 
+</body>
+
+</html>

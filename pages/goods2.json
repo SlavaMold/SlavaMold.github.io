@@ -1,0 +1,12 @@
+{
+    "11119":{
+        "name" : "Roi de albine",
+        "cost" : "340", 
+        "description" : " O nouă colonie de albine care s-a desprins din colonia anterioară sau mamă. Compoziția fiecărei astfel de colonii poate fi una sau mai multe matci, câteva sute de trântori și zeci de mii de albine care fac toată munca.",
+        "image1" : "../img/obr/products/familie.svg",
+        "image2" : "../img/obr/products/familie.svg",
+        "image3" : "../img/obr/products/familie.svg",
+        "video" : "../video/roiul.mp4"
+    }
+
+}
