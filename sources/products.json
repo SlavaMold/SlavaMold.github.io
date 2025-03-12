@@ -1,0 +1,254 @@
+{
+    "0": {
+        "name": "Акациевый мёд",
+        "type": "acacia",
+        "category": "Products",
+        "description": "Мёд из акации",
+        "price": 112,
+        "quantity": 10,
+        "imglink": "Akacia_med.png"
+    },
+    "1": {
+        "name": "Липовый мёд",
+        "type": "lipa",
+        "category": "Products",
+        "description": "Натуральный липовый мёд",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "lipoviy_med.png"
+    },
+    "2": {
+        "name": "Мультицветковый мёд",
+        "type": "multifloral",
+        "category": "Products",
+        "description": "Мультицветковый мёд",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "multifloral.png"
+    },
+    "3": {
+        "name": "Пчелиная пыльца",
+        "type": "polen",
+        "category": "Products",
+        "description": "Пчелиная пыльца",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "pollen.png"
+    },
+    "4": {
+        "name": "Маточное пчелиное молочко",
+        "type": "milk",
+        "category": "Products",
+        "description": "Маточное пчелиное молочко",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "molochko-6.png"
+    },
+    "5": {
+        "name": "Пчелиный воск",
+        "type": "wax",
+        "category": "Products",
+        "description": "Пчелиный воск",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "wax.jpg"
+    },
+    "6": {
+        "name": "Прополис",
+        "type": "propolis",
+        "category": "Products",
+        "description": "Прополис",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "propolis.jpg"
+    },
+    "7": {
+        "name": "Мёд в сотах",
+        "type": "honey_in_honeycombs",
+        "category": "Products",
+        "description": "Мёд в сотах",
+        "price": 120,
+        "quantity": 15,
+        "imglink": "med_v_sotah.jpg"
+    },
+    "11": {
+        "name": "Костюм",
+        "type": "costume",
+        "category": "Utilities",
+        "description": "Костюм для пчеловода",
+        "price": 2500,
+        "quantity": 5,
+        "imglink": "kostyum.png"
+    },
+    "12": {
+        "name": "Окуриватель",
+        "type": "smoke",
+        "category": "Utilities",
+        "description": "Окуриватель для работы с пчёлами",
+        "price": 550,
+        "quantity": 8,
+        "imglink": "okurivatel.png"
+    },
+    "13": {
+        "name": "Щётки",
+        "type": "brushes",
+        "category": "Utilities",
+        "description": "Щётки для поддержки чистоты ульев",
+        "price": 80,
+        "quantity": 8,
+        "imglink": "shetka.png"
+    },
+    "14": {
+        "name": "Зубило",
+        "type": "chisel",
+        "category": "Utilities",
+        "description": "Зубило для дерева",
+        "price": 150,
+        "quantity": 8,
+        "imglink": "zubilo.png"
+    },
+    "15": {
+        "name": "Клещи",
+        "type": "pliers",
+        "category": "Utilities",
+        "description": "Клещи",
+        "price": 150,
+        "quantity": 8,
+        "imglink": "kleste.png"
+    },
+    "16": {
+        "name": "Лопатка",
+        "type": "spatula",
+        "category": "Utilities",
+        "description": "Лопатка пчеловода",
+        "price": 100,
+        "quantity": 8,
+        "imglink": "lopatka.png"
+    },
+    "21": {
+        "name": "Горизонтальные улья",
+        "type": "horizontal_beehouse",
+        "category": "Beehouses",
+        "description": "Горизонтальные улья",
+        "price": 2500,
+        "quantity": 5,
+        "imglink": "horizontal_beehouse.png"
+    },
+    "22": {
+        "name": "Вертикальные улья",
+        "type": "vertical_beehouse",
+        "category": "Beehouses",
+        "description": "Вертикальные улья",
+        "price": 2500,
+        "quantity": 5,
+        "imglink": "vertical_beehouse.png"
+    },
+    "23": {
+        "name": "Свой дизайн",
+        "type": "your_design",
+        "category": "Beehouses",
+        "description": "Свой дизайн",
+        "price": 2500,
+        "quantity": 5,
+        "imglink": "your_design.png"
+    },
+    "24": {
+        "name": "Улья маршрутизаторы",
+        "type": "route_beehouse",
+        "category": "Beehouses",
+        "description": "Улья маршрутизаторы",
+        "price": 2500,
+        "quantity": 5,
+        "imglink": "route_beehouse.png"
+    },
+    "25": {
+        "name": "Рамки 1/1",
+        "type": "frames11",
+        "category": "Beehouses",
+        "description": "Рамки 1/1",
+        "price": 400,
+        "quantity": 5,
+        "imglink": "Rame.png"
+    },
+    "26": {
+        "name": "Рамки 1/2",
+        "type": "frames12",
+        "category": "Beehouses",
+        "description": "Рамки 1/2",
+        "price": 400,
+        "quantity": 5,
+        "imglink": "Rame.png"
+    },
+    "27": {
+        "name": "Рамки 3/4",
+        "type": "frames34",
+        "category": "Beehouses",
+        "description": "Рамки 3/4",
+        "price": 400,
+        "quantity": 5,
+        "imglink": "Rame.png"
+    },
+    "31": {
+        "name": "IFAD",
+        "type": "BusinessIFAD",
+        "category": "Business",
+        "description": "IFAD",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "32": {
+        "name": "ODA",
+        "type": "BusinessODA",
+        "category": "Business",
+        "description": "ODA",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "33": {
+        "name": "AIPA",
+        "type": "BusinessAIPA",
+        "category": "Business",
+        "description": "AIPA",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "34": {
+        "name": "GAL",
+        "type": "BusinessGAL",
+        "category": "Business",
+        "description": "GAL",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "35": {
+        "name": "PNUD",
+        "type": "BusinessPNUD",
+        "category": "Business",
+        "description": "PNUD",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "36": {
+        "name": "livada moldovei",
+        "type": "BusinessLivadaMoldovei",
+        "category": "Business",
+        "description": "livada moldovei",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    },
+    "37": {
+        "name": "EU4bussines",
+        "type": "BusinessEU4bussines",
+        "category": "Business",
+        "description": "EU4bussines",
+        "price": "Договорная",
+        "quantity": 5,
+        "imglink": "finance.png"
+    }
+}
