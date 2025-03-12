@@ -1,0 +1,215 @@
+.product-list {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+product-list2{
+  display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: nowrap; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section{
+  margin-top: 40px;
+  display: flex;
+}
+
+.menu-aside{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(41, 41, 41, 0.8);
+    padding: 30px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 260px;
+}
+
+@media(max-width:768px){
+  .product-list{
+    flex-direction: column;
+  }
+  .menu-aside{
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .menu-aside{
+    max-width: 768px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .plug{
+    display: none;
+  }
+}
+
+.plug{
+    height: 50vh;
+}
+
+.menu-aside button{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0px;
+    color:#fff;
+    font-family: "Dosis", serif;
+    font-weight: normal;
+    font-size: 18px;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu-aside  button:hover{
+    cursor: pointer;
+    color:rgb(205, 133, 63, 1);
+    border-bottom: 2px solid rgb(205, 133, 63, 0.5);
+  }
+
+  .product-header{
+    margin-bottom: 5px;
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    transition: all 0.3s;
+  }
+
+  .product-header:hover{
+    cursor: pointer;
+    color: rgb(255, 216, 184);
+  }
+
+  .accord-button {
+    color: #fff;
+
+    /* padding-bottom: 20px; */
+  }
+
+.product-qty{
+  padding-bottom:10px;
+}
+
+  .acc-cont {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    max-height: 0px;
+    
+  }
+
+  .business{
+    color: #fff;
+  }
+
+  .product-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 10px #09090935;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 40px 40px;
+    max-width: 280px;
+    max-height: 450px;
+    border-radius: 5px;
+    border: 2px solid #ac32e4;
+    background-color: rgb(255, 245, 197);
+  }
+
+  .product-item2{
+    max-height: 490px;
+
+  }
+
+  @media(max-width:768px){
+    .product-item{
+      margin-left: 0px;
+    }
+  }
+  
+.product-txt1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 175px;
+  text-wrap: wrap;
+}
+
+.product-descr {
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  text-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  font-family: "Dosis", serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.insertPrice{
+  font-family: inherit;
+  font-style: bold;
+  font-size: 26px;
+  color: rgb(245, 41, 34);
+}
+
+.main-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-add {
+  padding: 10px 10px;
+}
+
+.product-img {
+  width: 200px;
+  height: 180px;
+  margin: 10px 20px;
+  border-radius: 40px;
+  border: 2px solid rgb(165, 97, 25);
+}
+
+/* ////////////////////////////ADD-TO-CART/////////////////////////////////////// */
+
+.add-to-cart {
+  justify-self: center;
+  color: #fff;
+  background-color: #ac32e4;
+  font-size: 14px;
+  padding: 10px 10px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.add-to-cart:hover {
+  cursor: pointer;
+  background-color: rgb(240, 193, 51);
+  color: rgb(26, 25, 25);
+  border-radius: 0px;
+}
